@@ -1,8 +1,14 @@
+import Dontmiss from "./Components/Dontmiss";
+import Footer from "./Components/Footer";
+import Leonawoods from "./Components/Leonawoods";
+
 function App() {
   return (
     <>
-      <h1 className="bg-red-500">Crossover</h1>
-      <button className="btn">daisyUIBtn</button>
+    <Leonawoods />
+    <Dontmiss />
+    <Footer />
+      
     </>
   );
 }
