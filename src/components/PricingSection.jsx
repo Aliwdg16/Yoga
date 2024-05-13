@@ -15,7 +15,7 @@ function PricingSection() {
 							<img src="src/assets/medal_icon.png" alt="medal" className="mx-auto py-4"/>
 							<span className="text-2xl font-bold">$105.00</span>
 							<p className="py-4">Lorem ipsum dolor sit amet, consetetur sadipscing elit.</p>
-							<button className="bg-[#473E59] px-4 py-2 text-white uppercase text-base w-full cursor-pointer">Order now</button>
+							<button className="bg-[#473E59] px-4 py-2 text-white uppercase text-base w-full cursor-pointer rounded">Order now</button>
 						</div>
 
 						<div className="rounded-lg overflow-hidden bg-white px-4 py-6 md:px-6 md:py-8">
@@ -23,7 +23,7 @@ function PricingSection() {
 							<img src="src/assets/medal_icon.png" alt="medal" className="mx-auto py-4"/>
 							<span className="text-2xl font-bold">$105.00</span>
 							<p className="py-4">Lorem ipsum dolor sit amet, consetetur sadipscing elit.</p>
-							<button className="bg-[#473E59] px-4 py-2 text-white uppercase text-base w-full cursor-pointer">Order now</button>
+							<button className="bg-[#473E59] px-4 py-2 text-white uppercase text-base w-full cursor-pointer rounded">Order now</button>
 						</div>
 
 						<div className="rounded-lg overflow-hidden bg-white px-4 py-6 md:px-6 md:py-8">
@@ -31,7 +31,7 @@ function PricingSection() {
 							<img src="src/assets/medal_icon.png" alt="medal" className="mx-auto py-4"/>
 							<span className="text-2xl font-bold">$105.00</span>
 							<p className="py-4">Lorem ipsum dolor sit amet, consetetur sadipscing elit.</p>
-							<button className="bg-[#473E59] px-4 py-2 text-white uppercase text-base w-full cursor-pointer">Order now</button>
+							<button className="bg-[#473E59] px-4 py-2 text-white uppercase text-base w-full cursor-pointer rounded">Order now</button>
 						</div>
 
 					</div>
