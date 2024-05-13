@@ -2,12 +2,12 @@ import backgroundImage from "../assets/background_section2.jpg";
 const OurStats = () => {
   return (
     <div
-      className="relative flex flex-col justify-around items-center gap-8 bg-cover bg-center bg-no-repeat w-full h-full lg:h-screen "
+      className="relative flex flex-col justify-around items-center gap-8 bg-cover bg-center bg-no-repeat w-full h-full md:h-screen "
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
-      <div className="absolute bg-[#221b30] opacity-80 inset-0"> </div>
+      <div className="absolute bg-[#221b30] opacity-80 inset-0"></div>
       <div className="flex flex-col flex-wrap justify-center items-center  gap-4 lg:gap-14 z-10 ">
         <h1 className="text-white text-4xl lg:text-8xl uppercase font-bold text-center p-8">
           Our Stats
