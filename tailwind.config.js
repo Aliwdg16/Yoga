@@ -1,14 +1,12 @@
-/**
- *
- * @type {import('tailwindcss').Config} */
 import daisyui from "daisyui";
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      backgroundImage: {
-        'my-imge1': "url(.\background_section_7.jpg)"
-      }
+      colors: {
+        custom: "#b2f0d9", // Define your custom color
+      },
     },
   },
   plugins: [daisyui],
