@@ -1,11 +1,11 @@
-import React from 'react'
-
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-base-200 text-base-content">
+    <footer className="footer p-10 text-gray-50  bg-[#473e59]">
+       
   <aside>
-    <img src="yoga.svg" className='w-20 m-0'></img>
-    <p>Lorem ipsum dolor sit amet, consectetur adip-<br/> iscing elit. Aliquam at dignissim nunc, id max-<br/> imus ex.etiam nec dignissim elit,at dignissim <br/> enim.</p>
+    <h1 className='text-2xl font-bold'>YOGAKU</h1>
+    {/* <img src=".\src\assets\logo.png" className='w-20 m-0'></img> */}
+    <p>Lorem ipsum dolor sit amet, consectetur adip-<br/> iscing elit. Aliquam at dignissim nunc, id max-<br/> imus ex.etiam nec dignissim elit, at dignissim <br/> enim.</p>
   </aside> 
   <nav>
     <h6 className="footer-title">About</h6> 
@@ -37,6 +37,7 @@ const Footer = () => {
     </div>
 
   </nav>
+  
 </footer>
   )
 }
