@@ -7,13 +7,18 @@ import Leonawoods from "./components/Leonawoods";
 import OurStats from "./components/OurStats";
 import BestInstructor from "./components/BestInstructor";
 import NewExperience from "./components/NewExperience";
+import AboutUsSection from "./components/AboutUsSection.jsx";
+import PricingSection from "./components/PricingSection.jsx";
+
 function App() {
   return (
     <>
       <Header />
       <OurStats />
+      <AboutUsSection />
       <BestInstructor />
       <NewExperience />
+      <PricingSection />
       <Leonawoods />
       <Dontmiss />
       <Footer />
